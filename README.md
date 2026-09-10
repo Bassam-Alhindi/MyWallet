@@ -1,5 +1,5 @@
 <img src="./assets/banner.svg" width="100%"/> 
-# 💰 MyWallet 
+## 💰 MyWallet 
 
 Financial Management App with Embedded AI Assistant
 
