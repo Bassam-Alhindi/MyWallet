@@ -18,7 +18,6 @@ Financial Management App with Embedded AI Assistant
 
 - 🤖 **Embedded AI Assistant** — a smart conversational feature to log expenses from natural chat, detect spending anomalies, and receive tailored financial insights.
 - 📊 **Interactive Financial Dashboard** — dynamic charts (pie, bar, trends) with custom date filters to monitor net balance and savings rate.
-- 🎨 **Spotify-Inspired Dark UI** — a premium, mobile-first layout engineered for fast performance and modern aesthetics.
 - 🇸🇦 **Dual Localization & SAR Support** — seamless Arabic/English switching with full RTL support and native Saudi Riyal currency formatting.
 - ⚡ **Modern Type-Safe Full Stack** — lightning-fast SPA rendering powered by Inertia v3, Svelte, and TypeScript.
 
