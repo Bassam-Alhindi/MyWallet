@@ -1,4 +1,4 @@
-<img src="./banner.svg?v=2" width="100%"/>
+<img src="./banner.svg?v=3" width="100%"/>
 
 ## 💰 MyWallet 
 
