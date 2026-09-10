@@ -1,5 +1,6 @@
 <img src="./assets/banner.svg" width="100%"/> 
 # 💰 MyWallet 
+
 Financial Management App with Embedded AI Assistant
 
 ![PHP](https://img.shields.io/badge/PHP-8.5-777BB4?style=flat&logo=php&logoColor=white)
