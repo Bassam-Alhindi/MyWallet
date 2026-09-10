@@ -152,7 +152,7 @@
   <circle class="coin coin3" cx="820" cy="258" r="8"/>
   <circle class="coin coin4" cx="1080" cy="268" r="6"/>
 
-  <text x="600" y="150" text-anchor="middle" class="title">💰 MyWallet</text>
+  <text x="600" y="150" text-anchor="middle" class="title">MyWallet</text>
   <text x="600" y="195" text-anchor="middle" class="subtitle">Every riyal has a destination</text>
 
   <line class="shimmer" x1="150" y1="230" x2="1050" y2="230"/>
