@@ -10,7 +10,7 @@ Financial Management App with Embedded AI Assistant
 ![Inertia.js](https://img.shields.io/badge/Inertia.js-9553E9?style=flat&logo=inertia&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
 
-**MyWallet** is a modern, mobile-first personal expense tracking and budgeting web application built on the **Laravel + Svelte + Inertia.js** stack. It includes an **embedded AI Assistant** that provides proactive spending insights, transaction categorization, and interactive reporting — with full Arabic/English localization and native Saudi Riyal (ر.س) support.
+**MyWallet** is a modern, mobile-first personal expense tracking and budgeting web application built on the **Laravel + Svelte + Inertia.js** stack. It includes an **embedded AI Assistant** that provides proactive spending insights, transaction categorization, and interactive reporting — with full Arabic/English localization and native Saudi Riyal (⃁) support.
 
 ---
 
