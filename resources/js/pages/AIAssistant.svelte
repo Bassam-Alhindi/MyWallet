@@ -453,7 +453,7 @@
 
 <AppHead title={t('ai.title')} />
 
-<div class="flex flex-1 flex-col gap-4 p-4 pb-24 sm:p-6 lg:pb-6 max-w-3xl mx-auto w-full h-[calc(100vh-4rem)]">
+<div class="flex md:min-w-0 flex-1 flex-col gap-4 p-4 pb-24 sm:p-6 md:pb-6 max-w-3xl md:max-w-7xl mx-auto w-full h-[calc(100vh-4rem)] md:h-[calc(100dvh-1rem)] md:flex-none">
     <!-- هيدر الصفحة بتصميم متناسق مع بقية الفئات -->
     <div class="flex items-center justify-between gap-3 px-1">
         <div class="flex items-center gap-3 min-w-0">

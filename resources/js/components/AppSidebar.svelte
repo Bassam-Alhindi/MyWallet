@@ -2,6 +2,7 @@
     import { Link } from '@inertiajs/svelte';
     import LayoutGrid from 'lucide-svelte/icons/layout-grid';
     import Receipt from 'lucide-svelte/icons/receipt';
+    import Shapes from 'lucide-svelte/icons/shapes';
     import BarChart3 from 'lucide-svelte/icons/bar-chart-3';
     import Bot from 'lucide-svelte/icons/bot';
     import LogOut from 'lucide-svelte/icons/log-out';
@@ -48,6 +49,11 @@
             icon: BarChart3,
         },
         {
+            title: t('nav.categories'),
+            href: '/categories',
+            icon: Shapes,
+        },
+        {
             title: t('nav.ai'),
             href: aiAssistant(),
             icon: Bot,
@@ -78,7 +84,7 @@
         <NavMain items={mainNavItems} />
     </SidebarContent>
 
-    <SidebarFooter>
+    <SidebarFooter class="md:hidden">
         <LanguageSwitcher />
         <NavUser />
 

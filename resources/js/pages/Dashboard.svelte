@@ -545,7 +545,7 @@
 
 <AppHead title={tr('dashboard.title', 'محفظتي', 'My Wallet')} />
 
-<div class="flex flex-1 flex-col gap-5 p-4 pb-36 sm:p-6 max-w-lg mx-auto w-full">
+<div class="flex md:min-w-0 flex-1 flex-col gap-5 p-4 pb-36 sm:p-6 md:pb-6 max-w-lg md:max-w-7xl mx-auto w-full">
   <!-- ترحيب مصغّر: وميض على الاسم وهالة تتنفس -->
   {#if firstName}
     <div
@@ -740,7 +740,7 @@
 </div>
 
 <!-- شريط الإضافة الزجاجي والسفلي -->
-<div class="fixed bottom-16 inset-x-0 z-40 max-w-lg mx-auto px-4 flex items-center justify-center pointer-events-none">
+<div class="fixed bottom-16 inset-x-0 z-40 max-w-lg mx-auto px-4 flex items-center justify-center pointer-events-none md:sticky md:bottom-4 md:inset-x-auto md:max-w-none md:px-0">
   <div class="dock relative flex items-center gap-2 p-1.5 rounded-full bg-[#121215]/65 border border-white/[0.08] shadow-[0_18px_50px_-16px_rgba(0,0,0,0.95)] pointer-events-auto">
     <span aria-hidden="true" class="dock-aura pointer-events-none absolute -inset-2.5 rounded-full bg-primary/20 blur-xl"></span>
     <!-- زر الإضافة الصوتية -->
@@ -774,7 +774,7 @@
 </div>
 
 <!-- شريط التنقل السفلي -->
-<div class="fixed bottom-0 inset-x-0 z-40 bg-[#09090b]/90 backdrop-blur-xl border-t border-white/10 px-6 py-2.5 max-w-lg mx-auto flex items-center justify-around">
+<div class="fixed bottom-0 inset-x-0 z-40 bg-[#09090b]/90 backdrop-blur-xl border-t border-white/10 px-6 py-2.5 max-w-lg mx-auto flex items-center justify-around md:hidden">
   <Link href={dashboard()} class="relative flex flex-col items-center gap-1 text-primary transition-all">
     <span class="absolute -top-2 size-1.5 rounded-full bg-primary shadow-[0_0_8px_#3b82f6]"></span>
     <LayoutDashboard class="size-5" />

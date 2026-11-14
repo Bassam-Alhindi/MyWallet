@@ -273,7 +273,7 @@
 
 <AppHead title={currentLocale === 'en' ? 'Reports' : 'التقارير'} />
 
-<div class="flex flex-1 flex-col gap-5 p-4 pb-24 sm:p-6 lg:pb-6 max-w-xl mx-auto w-full">
+<div class="flex md:min-w-0 flex-1 flex-col gap-5 p-4 pb-24 sm:p-6 md:pb-6 max-w-xl md:max-w-7xl mx-auto w-full">
   <!-- هيدر الصفحة -->
   <div>
     <h1 class="text-xl font-bold tracking-tight sm:text-2xl">

@@ -43,7 +43,7 @@
     ]);
 </script>
 
-<nav class="fixed bottom-0 left-0 right-0 z-50 border-t border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80 lg:hidden">
+<nav class="fixed bottom-0 left-0 right-0 z-50 border-t border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80 md:hidden">
     <div class="grid h-16 grid-cols-5">
         {#each navItems as item (toUrl(item.href))}
             {@const isActive = url.isCurrentUrl(item.href, url.currentUrl)}

@@ -237,7 +237,7 @@
 
 <AppHead title={t('transactions.title')} />
 
-<div class="flex flex-1 flex-col gap-4 p-4 pb-24 sm:p-6 lg:pb-6">
+<div class="flex md:min-w-0 flex-1 flex-col gap-4 p-4 pb-24 sm:p-6 md:pb-6">
     <!-- الهيدر -->
     <div class="flex items-center justify-between gap-4">
         <div>

@@ -408,7 +408,7 @@
 </script>
 
 <AppHead title={t('categories.title')} />
-<div class="flex h-full flex-1 flex-col gap-6 overflow-y-auto p-4 pb-24 sm:p-6 lg:pb-6">
+<div class="flex h-full md:min-w-0 flex-1 flex-col gap-6 overflow-y-auto p-4 pb-24 sm:p-6 md:pb-6">
   <!-- Header -->
   <div class="flex items-center justify-between">
     <div>

@@ -17,7 +17,7 @@
 
 <AppShell variant="sidebar">
     <AppSidebar />
-    <AppContent variant="sidebar" class="overflow-x-hidden pb-20 lg:pb-0">
+    <AppContent variant="sidebar" class="overflow-x-hidden pb-20 md:pb-0">
         {@render children?.()}
     </AppContent>
     <BottomNav />
